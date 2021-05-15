@@ -1,354 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bruno Criações</title>
-    <link rel="stylesheet" href="./disc/css/style.css">
-    <link rel="shortcut icon" href="./disc/logo/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script src="./assets/js/index.js" defer></script>
+    <link rel="shortcut icon" href="./assets/logo/ico.png" type="image/x-icon">
 </head>
-<body>
 
-    <nav id="menu">
+<body class="preto branco-text">
+
+    <div>
         <div class="container">
-            <a href="index.html#inicio" title="Home">
-                <img src="./disc/logo/logo-site.png" alt="logo bruno criacoes">
-            </a>
-            <div class="link-menu">
-                <a href="index.html#inicio" title="Home">Home</a>
-                <a href="index.html#sobre" title="Sobre">Sobre</a>
-                <a href="index.html#blog" title="Blog">Blog</a>
-                <a href="index.html#cursos" title="Cursos">Cursos</a>
-                <a href="index.html#criacao-de-app" title="Criação de app" class="destaque">Criação de app</a>
-            </div>
+            <img src="./assets/logo/logo.svg" class="logo" alt="Bruno Criações">
         </div>
-    </nav>
+    </div>
 
-    <main id="content">
-
-        <section id="criacao-de-app">
-            <div class="banner">
-                <div>
-                    <h1>Você a um clique de distancia do seu cliente</h1>
-                </div>
-                <div>
-                    foto
-                </div>
-            </div>
-            <div class="container">
-                <h1>Um app pode amentar suas vendas</h1>
-                <h1>aumentar seu poder de convencimento</h1>
-                <h1>e alcançar muito mais cliente</h1>
-                <h1>Você ja tem documentação</h1>
-                <h1>processo de desenvolvimeto</h1>
-                <h1>PWA é um app?</h1>
-                <h1>Tempo para desenvolvimento </h1>
-                <h1>forma de pagamento</h1>
-            </div>
-        </section>
-
-        <section id="inicio">
-            <div class="banner">
-                <div>
-                    <h1>Transformando ideias em produtos</h1>
-                    <p>
-                        Se você possui uma ideia, e ainda não 
-                        consegui colocar em pratica seja por falta de tempo
-                        problemas com o desenvolvimento, chegou a hora de tira 
-                        ela da gaveta.
+    <div class="inner-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l7">
+                    <h1 class="title">
+                        Desde <span class="laranja-text">2002</span>  atuando na 
+                        área de desenvolvimento <span class="vermelho-text">web</span> 
+                    </h1>
+                    <p class="description_main">
+                        Se você está  procurando uma forma de converter seus acessos do site 
+                        em <b class="laranja-text">clientes</b> ou <b class="laranja-text">vendas</b> , eu tenho uma ótima oportunidade para você.
                     </p>
-                    <a href="#inicio" title="Começa a jornada">Começa a jornada</a>
-                </div>
-                <div></div>
-            </div>
-            <div class="container">
-                <h1>Você a um clique de distancia do cliente</h1>
-                <h1>Desenvolvimento web</h1>
-                <h1>SPA</h1>
-                <h1>O melhor curso do Brasil</h1>
-                <h1>PWA</h1>
-                <h1>aumente seu repertorio BLOG</h1>
-            </div>
-        </section>    
-
-        <section id="sobre">
-            <div class="banner" style="min-height: 200px;">
-                <div>
-                    <h1>Um pouco de Historia</h1>
-                </div>
-            </div>
-            <div class="container grid-single">
-                <div>
-                    <h1>Um pouco sobre min</h1>
-                    <small>Tentarei resumir :)</small>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quod cum fuga corrupti doloremque. Sed ut ratione iusto 
-                        aspernatur itaque pariatur quibusdam enim, cumque ea, eligendi 
-                        minima sunt, maxime quas consequuntur.
+                    <p class="description_main">
+                        Você pode usar <b class="amarelo-text">LP (Landing Page)</b> na sua estratégia de marketing virtual, 
+                        apontando seus anúncios para uma página de alta conversão, criando sua 
+                        própria <b class="vermelho-text">lista</b>  de clientes.
                     </p>
                 </div>
-                <div>
-                    <div class="link-publicitario">
-                        <b>Todo mundo hoje tem um aplicativo e você ja tem o seu?</b>
-                        <a href="#criacao-de-app">Começe agora !!!</a>
-                    </div>
+                <div class="col s12 m12 l5">
+                    <img src="./assets/img/brunocriacoes-bruno-vieira.png" class="gravatar" alt="Bruno Vieira">
+                    <strong class="gravatar-name">Bruno Vieira</strong>
+                    <p class="bios">
+                        Olá navegantes da internet, me chamo Bruno Vieira sou apaixonado pelo 
+                        mundo da programação, posso falar que sou sortudo nos últimos 20 anos 
+                        de atuação eu tive a oportunidade de passar por 
+                        vários setores no mercado digital, criação de games, birô de TV, 
+                        Rádio, Arquitetura, Arte Impressas área têxtil, 
+                        e encontrei muitos que me ajudaram a
+                         trilha esse caminho, isso me resume :)
+                    </p>
                 </div>
             </div>
-        </section>
-
-        <section id="blog">
-            <div class="banner" style="min-height: 200px;">
-                <div>
-                    <form action="#blog" class="busca">
-                        <input type="search" name="s" placeholder="o que você procura">
-                        <label for="buscar">
-                            <img src="./disc/ico/search.png" alt="">
-                        </label>
-                        <input type="submit" id="buscar" hidden>
-                    </form>
-                </div>
-            </div>
-            <div class="container grid-single">
-                <div class="post-blog">
-                    <a href="#post">
-                        <img src="./disc/banner/livro.jpg" alt="">
-                        <h5>Como problema de Adão atrapalha a vida na hora de programnar</h5>
-                    </a>
-                    <a href="#post">
-                        <img src="./disc/banner/livro.jpg" alt="">
-                        <h5>Como problema de Adão atrapalha a vida na hora de programnar</h5>
-                    </a>
-                    <a href="#post">
-                        <img src="./disc/banner/livro.jpg" alt="">
-                        <h5>Como problema de Adão atrapalha a vida na hora de programnar</h5>
-                    </a>
-                    <a href="#post">
-                        <img src="./disc/banner/livro.jpg" alt="">
-                        <h5>Como problema de Adão atrapalha a vida na hora de programnar</h5>
-                    </a>
-                </div>
-                <div>
-                    <h4>Categorias</h4>
-                    <div class="categorias">
-                        <span>Todas</span>
-                        <span>JavaScript</span>
-                        <span>PHP</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>E6</span>
-                    </div>
-                    <div class="link-publicitario">
-                        <b>Todo mundo hoje tem um aplicativo e você ja tem o seu?</b>
-                        <a href="#criacao-de-app">Começe agora !!!</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="cursos">
-            <div class="banner" style="min-height: 200px;">
-                <div>
-                    <form action="#cursos" class="busca">
-                        <input type="search" name="s" placeholder="o que você procura">
-                        <label for="buscar-cursos">
-                            <img src="./disc/ico/search.png" alt="">
-                        </label>
-                        <input type="submit" id="buscar-cursos" hidden>
-                    </form>
-                </div>
-            </div>
-            <div class="container grid-single">
-                <div class="post-curso">
-                    <a href="#curso">                        
-                        <h5>Logica de programação</h5>
-                        <p>No curso você vai aprender o segredo da programação</p>
-                        <span>
-                            <img src="./disc/ico/time.png" alt="">
-                            5:30 hs
-                            <img src="./disc/ico/play.png" alt="">
-                            19 aulas
-                        </span>
-                    </a>                   
-                    <a href="#curso">                        
-                        <h5>Logica de programação</h5>
-                        <p>No curso você vai aprender o segredo da programação</p>
-                        <span>
-                            <img src="./disc/ico/time.png" alt="">
-                            5:30 hs
-                            <img src="./disc/ico/play.png" alt="">
-                            19 aulas
-                        </span>
-                    </a>                   
-                    <a href="#curso">                        
-                        <h5>Logica de programação</h5>
-                        <p>No curso você vai aprender o segredo da programação</p>
-                        <span>
-                            <img src="./disc/ico/time.png" alt="">
-                            5:30 hs
-                            <img src="./disc/ico/play.png" alt="">
-                            19 aulas
-                        </span>
-                    </a>                   
-                    <a href="#curso">                        
-                        <h5>Logica de programação</h5>
-                        <p>No curso você vai aprender o segredo da programação</p>
-                        <span>
-                            <img src="./disc/ico/time.png" alt="">
-                            5:30 hs
-                            <img src="./disc/ico/play.png" alt="">
-                            19 aulas
-                        </span>
-                    </a>                   
-                </div>
-                <div>
-                    <h4>Categorias</h4>
-                    <div class="categorias">
-                        <span>Todas</span>
-                        <span>JavaScript</span>
-                        <span>PHP</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>E6</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="curso">
-            <div class="banner">
-                <div>
-                    <h1>Logica de programação</h1>
-                    <p>No curso você vai aprender o segredo da programação</p>
-                    <p><b>R$ 150,00</b></p>                    
-                    <p>Em ate 12x sem juros</p>
-                    <a href=""> COMPRAR AGORA </a>
-                </div>
-                <div>
-                    foto
-                </div>        
-            </div>
-            <div class="display-info-curso">
-                <span class="container info-curso">
-                    <img src="./disc/ico/time.png" alt="">
-                    5:30 hs
-                    <img src="./disc/ico/play.png" alt="">
-                    19 aulas
-                    <button>Live</button>
-                    <button>Provas</button>
-                    <button>Emitir Certificado</button>
-                    <button>Código Fonte</button>
-                </span>
-            </div>
-            <div class="container grid-curso">
-                <div>
-                    <div class="video"> </div>
-                    <h3>sobre o curos</h3>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Dolorem laborum inventore, explicabo culpa illo officiis ipsum, 
-                        incidunt quod, nulla eius vero? Ea libero nostrum nesciunt, 
-                        maxime error ullam eum voluptates.
-                    </p>                     
-                </div>
-                <div>
-                    <div class="aulas">
-                        <a href="">
-                            <img src="./disc/ico/play.png" alt="">
-                            <span> <b>aula 1:</b>o que é logica? </span>
-                            <span>0:12:07</span>
-                        </a>
-                        <a href="">
-                            <img src="./disc/ico/play.png" alt="">
-                            <span> <b>aula 2:</b> definição de variavel </span>
-                            <span>0:12:07</span>
-                        </a>
-                        <a href="">
-                            <img src="./disc/ico/play.png" alt="">
-                            <span> <b>aula 3:</b> o que é escopo? </span>
-                            <span>0:12:07</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="post">
-            <div class="banner" style="min-height: 200px;">
-                <div>
-                    <form action="#blog" class="busca">
-                        <input type="search" name="s" placeholder="o que você procura">
-                        <label for="buscar-post">
-                            <img src="./disc/ico/search.png" alt="">
-                        </label>
-                        <input type="submit" id="buscar-post" hidden>
-                    </form>
-                </div>
-            </div>            
-            <div class="container grid-single">
-                <div>
-                   <h1>Como problema de Adão atrapalha a vida na hora de programnar</h1>
-                   <small>Acredite o Adão que comecou</small>
-                   <p>
-                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                       Vel dolore corporis tempora placeat dolorem, quidem cumque 
-                       soluta beatae animi modi laudantium itaque culpa in, 
-                       voluptatem quod minus ad, ducimus nisi!
-                   </p>
-                </div>
-                <div>
-                    <div class="link-publicitario">
-                        <b>Todo mundo hoje tem um aplicativo e você ja tem o seu?</b>
-                        <a href="#criacao-de-app">Começe agora !!!</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer id="footer">
-        <div class="container">
-           <div class="link-footer">
-                <a href="" title="facebook" target="_blank">
-                    <img src="./disc/ico/facebook.png" alt="facebook">
-                    /brunocriacoes
-                </a>
-                <a href="" title="instagram" target="_blank">
-                    <img src="./disc/ico/instagram.png" alt="instagram">
-                    @brunocriacoes
-                </a>
-                <a href="" title="twitter" target="_blank">
-                    <img src="./disc/ico/twitter.png" alt="twitter">
-                    @brunocriacoes
-                </a>
-                <a href="" title="youtube" target="_blank">
-                    <img src="./disc/ico/youtube.png" alt="youtube">
-                    /brunocriacoes
-                </a>
-           </div>
-           <div class="link-footer">
-               <p>
-                    <b>Horario de atendimento</b>  <br>
-                    9:00 as 17:00 hs <br>
-                    Somente dias uteis <br>
-               </p>
-                <a href="" title="mail" target="_blank">
-                    <img src="./disc/ico/mail.png" alt="mail">
-                    br.rafael@outlook.com
-                </a>
-                <a href="" title="mail" target="_blank">
-                    <img src="./disc/ico/skype.png" alt="mail">
-                    brunocriacoes
-                </a>               
-           </div>
-           <div>
-                <img src="./disc/logo/logo-box.png" height="170" alt="">
-           </div>
         </div>
-        <div class="copy">&copy; 2007 - Todos os direitos reservados - Bruno Criações</div>
-    </footer>
-    
+    </div>
+
+    <video class="video-background" src="./assets/video/programacao.mp4" autoplay controls loop ></video>
+
+    <a class="whatsapp" href="https://web.whatsapp.com/send?phone=5582999776698&text=" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/icon/whatsapp.svg" alt="whatsapp">
+    </a>
+
+    <div class="copy"> &copy; 2002 - 2021 Todos os direitos reservados a <b>Bruno Criações</b> </div>
+
 </body>
+
 </html>
