@@ -1,0 +1,14 @@
+body {
+    background-color: #111;
+}
+body svg {
+    width: 70px;
+    color: aliceblue;
+    transition: all .03s;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
